@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Asap|Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>KANAN</h1>
+    <div class="">
+      <p>For
+        <img src="logo-kupiix.png" alt="logo-kupiix">
+      </p>
     </div>
-    <script src="cipher.js"></script>
+  </header>
+  <section>
+    <br>
+    <h2>Bienvenida</h2>
+    <p>KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red Kupiix.</p>
+    <br>
+    <h3>Ingresa tu mensaje aquí:</h3>
+    <p>(Utiliza solamente letras, sin caracteres especiales)</p>
+    <form class="" action="user-message" autocomplete="off">
+      <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
+      <input type="text" name="user-message" id="user-message" size="150" placeholder="Escribe tu mensaje" required>
+    </form>
+    <br>
+    <h3>Número de seguridad:</h3>
+    <p>Si vas a <strong>cifrar</strong>, introduce un número del 1 al 26.
+      <br>
+      Si vas a <strong>descifrar</strong>, introduce el número que te proporcionaron.
+    </p>
+    <form class="" action="offset" autocomplete="off">
+      <label for="offset" style="display:none">Número de seguridad</label>
+      <input type="number" name="offset" id="offset" placeholder="Número de seguridad" required>
+    </form>
+    <br>
+    <div class="button">
+      <h3>Elige tu acción:</h3>
+      <button type="button" name="button-cipher" id="boton-cipher">Cifrar</button>
+      <button type="button" name="button-decipher" id="boton-decipher">Descifrar</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>
+    <footer>Creado por LMVR90 para Kupiix
+      <br>
+      2019
+    </footer>
+
     <script src="index.js"></script>
-  </body>
+
+</body>
 </html>
