@@ -17,7 +17,7 @@
       </p>
     </div>
   </header>
-  <section>
+  <section id="welcome">
     <br>
     <h2>Bienvenida</h2>
     <p>KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red Kupiix.</p>
@@ -28,7 +28,6 @@
       <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
       <input type="text" name="user-message" id="user-message" size="150" placeholder="Escribe tu mensaje" required>
     </form>
-    <br>
     <h3>Número de seguridad:</h3>
     <p>Si vas a <strong>cifrar</strong>, introduce un número del 1 al 26.
       <br>
@@ -38,23 +37,35 @@
       <label for="offset" style="display:none">Número de seguridad</label>
       <input type="number" name="offset" id="offset" placeholder="Número de seguridad" required>
     </form>
-    <br>
     <div class="button">
       <h3>Elige tu acción:</h3>
-      <button type="button" name="button-cipher" id="boton-cipher">Cifrar</button>
-      <button type="button" name="button-decipher" id="boton-decipher">Descifrar</button>
+      <button type="button" name="button-code" id="button-code">Cifrar</button>
+      <button type="button" name="button-decode" id="button-decode">Descifrar</button>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
   </section>
-    <footer>Creado por LMVR90 para Kupiix
-      <br>
-      2019
-    </footer>
 
-    <script src="index.js"></script>
+  <section id="code-screen" style="display:none">
+    <h2 id="code-text-copy">Tu mensaje cifrado es:</h2>
+    <h3>No olvides compartir tu número de seguridad al destinatario.</h3>
+    <p id="coded-text"></p>
+  </section>
+
+  <section id="decode-screen" style="display:none">
+    <h2 id="decode-text-copy">Tu mensaje descifrado es:</h2>
+    <p id="decoded-text"></p>
+  </section>
+
+  <div id="start-again" style="display:none">
+    <button type="button" name="start-again" id="start-again-button">Volver al inicio</button>
+  </div>
+
+  <footer>Creado por LMVR90 para Kupiix
+    <br>
+    2019
+  </footer>
+
+  <script src="index.js"></script>
 
 </body>
+
 </html>
