@@ -9,14 +9,16 @@
 </head>
 
 <body>
-  <header>
+<!--DIV container para pintar todo el canvas / revisar sobre inline y block para logo kupiix en header -->
+
+  <header id="header">
     <h1>KANAN</h1>
-    <div class="">
-      <p>For
-        <img src="logo-kupiix.png" alt="logo-kupiix">
-      </p>
+    <div class="" id="for-kupiix">
+      <p>For</p>
+      <img src="logo-kupiix.png" alt="logo-kupiix">
     </div>
   </header>
+<main>
   <section id="welcome">
     <br>
     <h2>Bienvenida</h2>
@@ -26,7 +28,7 @@
     <p>(Utiliza solamente letras, sin caracteres especiales)</p>
     <form class="" action="user-message" autocomplete="off">
       <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
-      <input type="text" name="user-message" id="user-message" size="150" placeholder="Escribe tu mensaje" required>
+      <input type="text" name="user-message" id="user-message" size="150" placeholder="Escribe tu mensaje aquí" required>
     </form>
     <h3>Número de seguridad:</h3>
     <p>Si vas a <strong>cifrar</strong>, introduce un número del 1 al 26.
@@ -35,7 +37,7 @@
     </p>
     <form class="" action="offset" autocomplete="off">
       <label for="offset" style="display:none">Número de seguridad</label>
-      <input type="number" name="offset" id="offset" placeholder="Número de seguridad" required>
+      <input type="number" name="offset" min="1" max="1000" id="offset-input" placeholder="Ingresa tu número de seguridad" required>
     </form>
     <div class="button">
       <h3>Elige tu acción:</h3>
@@ -58,7 +60,7 @@
   <div id="start-again" style="display:none">
     <button type="button" name="start-again" id="start-again-button">Volver al inicio</button>
   </div>
-
+</main>
   <footer>Creado por LMVR90 para Kupiix
     <br>
     2019

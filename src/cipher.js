@@ -8,5 +8,17 @@ offset es el número de posiciones que queremos mover a la izquierda en el alfab
 /*Esto es un objeto*/
 
 window.cipher = {
+  //encode: = () => {}
   // ...
 };
+
+
+//const string = document.getElementById('user-message').value;
+//const offset = document.getElementById('offset-input').value;
+
+/*const convertUppperCase = () => {
+  string.toUpperCase();
+  return convertUpperCase;
+}
+
+
