@@ -4,20 +4,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });*/
 
 //DECLARAR VARIABLES DEL DOM
-//const userMessage = document.getElementById('user-message');
-//const offset = document.getElementById('offset-input');
+//const string = document.getElementById('string').value; Obtener el valor de los inputs y guardarlo en una variable.
+//const offset = document.getElementById('offset').value; Obtener el valor de los inputs y guardarlo en una variable.
 const buttonCode = document.getElementById('button-code');
 const buttonDecode = document.getElementById('button-decode');
-const buttonStartAgain = document.getElementById('start-again-button');
+const buttonReset = document.getElementById('reset');
+//const string = document.getElementById('string');
+//const offset = document.getElementById('offset');
 
 
 //FUNCIÓN PARA REGRESAR A PANTALLA DE BIENVENIDA
-const startAgain = () => {
+const resetWelcome = () => {
   document.getElementById('welcome').style.display="block";
   document.getElementById('code-screen').style.display="none";
   document.getElementById('decode-screen').style.display="none";
   document.getElementById('start-again').style.display="none";
-  return codeScreen;
+  document.getElementById('offset').value="default value";
+  return resetWelcome;
 }
 
 //FUNCIÓN PARA IR A PANTALLA DE TEXTO CODIFICADO
@@ -25,8 +28,11 @@ const codeScreen = () => {
   document.getElementById('welcome').style.display="none";
   document.getElementById('code-screen').style.display="block";
   document.getElementById('start-again').style.display="block";
-  //cipher.encode;
-  return codeScreen;
+  let string = document.getElementById('string').value;
+  let offsetInput = document.getElementById('offset').value;
+  //let string = str.toUpperCase();
+  let offset = parseInt(offsetInput);
+  document.getElementById("encoded-text").innerHTML = window.cipher.encode(offset,string);
 }
 
 //FUNCIÓN PARA IR A PANTALLA DE TEXTO DECODIFICADO
@@ -34,14 +40,19 @@ const decodeScreen = () => {
   document.getElementById('welcome').style.display="none";
   document.getElementById('decode-screen').style.display="block";
   document.getElementById('start-again').style.display="block";
-  //cipher.decode;
+  //let string = document.getElementById('string').value;
+  //let offset = document.getElementById('offset').value;
+  //console.log(string.value);
+  //console.log(offset.value);
+  //window.cipher.decode(string,offset);
+  //const strDecodedResult = window.cipher.encode.strDecoded;
   return decodeScreen;
 }
 
 //DECLARAR BOTONES Y EVENTOS DEL DOM
 buttonCode.addEventListener("click", codeScreen);
 buttonDecode.addEventListener("click", decodeScreen);
-buttonStartAgain.addEventListener("click",startAgain);
+buttonReset.addEventListener("click",resetWelcome);
 
 /* COMPROBAR SI GUARDA RESPUESTAS
 const saveAnswers = () => {

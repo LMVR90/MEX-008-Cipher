@@ -9,64 +9,60 @@
 </head>
 
 <body>
-<!--DIV container para pintar todo el canvas / revisar sobre inline y block para logo kupiix en header -->
-
-  <header id="header">
-    <h1>KANAN</h1>
-    <div class="" id="for-kupiix">
-      <p>For</p>
-      <img src="logo-kupiix.png" alt="logo-kupiix">
-    </div>
+  <header id="main-header">
+    <h1 id="kanan">KANAN</h1>
+      <p>For <a href="http://www.kupiix.com.mx/" target="_blank"><img src="logo-kupiix.png" alt="logo-kupiix"></a></p>
+      
   </header>
 <main>
   <section id="welcome">
     <br>
-    <h2>Bienvenida</h2>
-    <p>KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red Kupiix.</p>
+    <h1 id="bienvenida">Bienvenida</h1>
+    <p class="sub-copy-kanan">KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red <span class="ku">ku</span><span class="piix">piix</span></p>
     <br>
-    <h3>Ingresa tu mensaje aquí:</h3>
-    <p>(Utiliza solamente letras, sin caracteres especiales)</p>
-    <form class="" action="user-message" autocomplete="off">
+    <h3>1. Escribe tu <strong class="ku1">mensaje</strong> aquí:</h3>
+    <p class="sub-copy">(Utiliza solamente letras, sin caracteres especiales)</p>
+    <form class="" action="user-message" autocomplete="off" id="input-string">
       <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
-      <input type="text" name="user-message" id="user-message" size="150" placeholder="Escribe tu mensaje aquí" required>
+      <textarea type="text" name="user-message" id="string" size="150" placeholder="Escribe tu mensaje aquí" required></textarea>
     </form>
-    <h3>Número de seguridad:</h3>
-    <p>Si vas a <strong>cifrar</strong>, introduce un número del 1 al 26.
+    <h3>2. Ingresa tu <strong class="ku1">número de seguridad</strong> aquí:</h3>
+    <p class="sub-copy">Si vas a <strong class="piix">cifrar</strong>, introduce un número al azar.
       <br>
-      Si vas a <strong>descifrar</strong>, introduce el número que te proporcionaron.
+      Si vas a <strong class="piix">descifrar</strong>, introduce el número que te proporcionaron.
     </p>
-    <form class="" action="offset" autocomplete="off">
+    <form class="" action="offset" autocomplete="off" id="input-offset">
       <label for="offset" style="display:none">Número de seguridad</label>
-      <input type="number" name="offset" min="1" max="1000" id="offset-input" placeholder="Ingresa tu número de seguridad" required>
+      <input type="number" name="offset" min="1" max="1000" id="offset" style="width: 100px;height: 30px;font-size: 16px" placeholder="1" required>
     </form>
-    <div class="button">
-      <h3>Elige tu acción:</h3>
-      <button type="button" name="button-code" id="button-code">Cifrar</button>
-      <button type="button" name="button-decode" id="button-decode">Descifrar</button>
+    <div>
+      <h3>3. Selecciona tu <strong class="ku1">acción</strong>:</h3>
+      <button type="button" class="button-action" :hover name="button-code" id="button-code">Cifrar</button>
+      <button type="button" class="button-action" :hover name="button-decode" id="button-decode">Descifrar</button>
     </div>
   </section>
 
   <section id="code-screen" style="display:none">
     <h2 id="code-text-copy">Tu mensaje cifrado es:</h2>
-    <h3>No olvides compartir tu número de seguridad al destinatario.</h3>
-    <p id="coded-text"></p>
+    <textarea id="encoded-text"></textarea>
+    <h3 class="ku">No olvides compartir tu número de seguridad al destinatario</h3>
   </section>
 
   <section id="decode-screen" style="display:none">
     <h2 id="decode-text-copy">Tu mensaje descifrado es:</h2>
-    <p id="decoded-text"></p>
+    <textarea id="decoded-text"></textarea>
   </section>
 
-  <div id="start-again" style="display:none">
-    <button type="button" name="start-again" id="start-again-button">Volver al inicio</button>
-  </div>
+  <section id="start-again" style="display:none" >
+  <form action="reset" id="reset-form">
+    <button type="reset" class="button-reset" :hover form="input-string" name="start-again" id="reset" value="reset">Volver al inicio</button>
+  </form>
+</section>
 </main>
-  <footer>Creado por LMVR90 para Kupiix
-    <br>
-    2019
-  </footer>
+  <footer id="main-footer">LMVR90 | 2019</footer>
 
   <script src="index.js"></script>
+  <script src="cipher.js"></script>
 
 </body>
 

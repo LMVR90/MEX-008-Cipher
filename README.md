@@ -1,3 +1,35 @@
+<!--
+Quiénes son los principales usuarios de producto. Cómo se pensó en ellos.
+Cuál fue el proceso para definir el producto final a nivel de experiencia y de interfaz. Decisiones de diseño.
+Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Explicar cómo descargar, instalar y ejecutar la aplicación.
+-->
+
+# KANAN
+
+## Introducción
+
+KANAN es una aplicación creada para la empresa [Kupiix](http://www.kupiix.com.mx/). Kupiix es una empresa 100% mexicana orientada en el diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
+
+El monitoreo de casa se genera a través de la instalación de sensores que permiten alertar al residente, mediante una aplicación móvil, sobre detección de movimiento, apertura de puertas o ventanas, inundación, humo y fugas de gas.
+
+La automatización de casa ocurre instalando conexiones eléctricas inteligentes que permiten, desde un clic en una aplicación móvil, encender o apagar luces de las habitaciones y controlar el encendido o apagado de múltiples electrodomésticos y dispositivos eléctricos en general.
+
+Para la protección de casa, se integra un seguro de hogar con coberturas que protegen al cliente por robos y siniestros. Proveen además, asistencia de plomería, cerrajería y sistemas eléctricos.
+
+## Creación de KANAN para Kupiix
+
+En el entorno Kupiix, se busca enriquecer la experiencia de seguridad a través de la implementación de una app que refuerce el intercambio de información de manera segura entre las personas de la red Kupiix.
+
+Inicialmente, KANAN será para uso exclusivo del equipo de trabajo de Kupiix. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios al entorno, la app se ampliará también a la comunicación entre equipo de trabajo y clientes de la empresa.
+
+## Funcionalidad
+
+KANAN busca ser una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuarix. 
+
+---
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
