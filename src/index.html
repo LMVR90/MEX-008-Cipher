@@ -11,23 +11,22 @@
 <body>
   <header id="main-header">
     <h1 id="kanan">KANAN</h1>
-      <p>For <a href="http://www.kupiix.com.mx/" target="_blank"><img src="logo-kupiix.png" alt="logo-kupiix"></a></p> <!--LOGO Y LINK AL SITIO DE KUPIIX-->   
+      <p>For <a href="http://www.kupiix.com.mx/" target="_blank"><img src="logo-kupiix.png" alt="logo-kupiix" :hover id="logo-kupiix"></a></p> <!--LOGO Y LINK AL SITIO DE KUPIIX-->   
   </header>
 <main>
 
   <section id="welcome"> <!--PANTALLA DE BIENVENIDA-->
-    <br>
     <h1 id="bienvenida">Bienvenida</h1>
-    <p class="sub-copy-kanan">KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red <span class="ku">ku</span><span class="piix">piix</span></p>
-    <br>
-    <h3>1. Escribe tu <strong class="ku1">mensaje</strong> aquí:</h3> <!--INPUT STRING-->
+    <p class="sub-copy-kanan">[KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red <span class="ku">ku</span><span class="piix">piix</span>]</p>
+    <h2>1. Escribe tu <strong class="ku1">mensaje</strong> aquí:</h2> <!--INPUT STRING-->
     <p class="sub-copy">(Utiliza solamente letras, sin caracteres especiales)</p>
     <form class="" action="user-message" autocomplete="off" id="input-string">
       <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
       <textarea type="text" name="user-message" id="string" size="150" placeholder="Escribe tu mensaje aquí" required></textarea>
     </form>
-    <h3>2. Ingresa tu <strong class="ku1">número de seguridad</strong> aquí:</h3> <!--INPUT OFFSET-->
-    <p class="sub-copy">Si vas a <strong class="piix">cifrar</strong>, introduce un número al azar.
+    <h2>2. Ingresa tu <strong class="ku1">número de seguridad</strong> aquí:</h2> <!--INPUT OFFSET-->
+    <p style="align:center" class="sub-copy">Si vas a <strong class="piix">cifrar</strong>, introduce un número al azar.
+      <br>
       <br>
       Si vas a <strong class="piix">descifrar</strong>, introduce el número que te proporcionaron.
     </p>
@@ -36,7 +35,7 @@
       <input type="number" name="offset" min="1" max="1000" id="offset" style="width: 100px;height: 30px;font-size: 16px" placeholder="1" required>
     </form>
     <div>
-      <h3>3. Selecciona tu <strong class="ku1">acción</strong>:</h3> <!--INPUT ACCION CIFRAR/DESCIFRAR-->
+      <h2>3. Selecciona tu <strong class="ku1">acción</strong>:</h2> <!--INPUT ACCION CIFRAR/DESCIFRAR-->
       <button type="button" class="button-action" :hover name="button-code" id="button-code">Cifrar</button>
       <button type="button" class="button-action" :hover name="button-decode" id="button-decode">Descifrar</button>
     </div>
