@@ -1,14 +1,9 @@
-/*COMPRUEBA QUE EL DOM SE CARGUE COMPLETAMENTE ANTES DE EJECUTAR CÓDIGO
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-});*/
-
-//DECLARAR VARIABLES DEL DOM
+//DECLARA VARIABLES DEL DOM
 const buttonCode = document.getElementById('button-code');
 const buttonDecode = document.getElementById('button-decode');
 const buttonReset = document.getElementById('reset');
 
-//FUNCIÓN PARA REGRESAR A PANTALLA DE BIENVENIDA
+//FUNCIÓN PARA REGRESAR A PANTALLA DE BIENVENIDA. OCULTA LAS OTRAS PANTALLAS Y BOTONES. REGRESA LOS INPUTS A SU VALOR INICIAL.
 const resetWelcome = () => {
   document.getElementById('welcome').style.display="block";
   document.getElementById('code-screen').style.display="none";
@@ -18,7 +13,7 @@ const resetWelcome = () => {
   return resetWelcome;
 }
 
-//FUNCIÓN PARA IR A PANTALLA DE TEXTO CODIFICADO
+//FUNCIÓN PARA IR A PANTALLA DE TEXTO CODIFICADO. OCULTA LAS OTRAS PANTALLAS Y BOTONES. OBTIENE LOS VALORES DE LOS INPUTS NECESARIOS PARA EL MÉTODO ENCODE. IMPLEMENTA EL MÉTODO ENCODE.
 const codeScreen = () => {
   document.getElementById('welcome').style.display="none";
   document.getElementById('code-screen').style.display="block";
@@ -30,19 +25,19 @@ const codeScreen = () => {
   document.getElementById("encoded-text").innerHTML = window.cipher.encode(offset,string);
 }
 
-//FUNCIÓN PARA IR A PANTALLA DE TEXTO DECODIFICADO
+//FUNCIÓN PARA IR A PANTALLA DE TEXTO DECODIFICADO. OCULTA LAS OTRAS PANTALLAS Y BOTONES. OBTIENE LOS VALORES DE LOS INPUTS NECESARIOS PARA EL MÉTODO DECODE. IMPLEMENTA EL MÉTODO DECODE.
 const decodeScreen = () => {
   document.getElementById('welcome').style.display="none";
   document.getElementById('decode-screen').style.display="block";
   document.getElementById('start-again').style.display="block";
-  //let str = document.getElementById('string').value;
-  //let string = str.toUpperCase();
-  //let offsetInput = document.getElementById('offset').value;
-  //let offset = parseInt(offsetInput);
-  //document.getElementById("decoded-text").innerHTML = window.cipher.decode(offset,string);
+  let str = document.getElementById('string').value;
+  let string = str.toUpperCase();
+  let offsetInput = document.getElementById('offset').value;
+  let offset = parseInt(offsetInput);
+  document.getElementById("decoded-text").innerHTML = window.cipher.decode(offset,string);
 }
 
-//DECLARAR BOTONES Y EVENTOS DEL DOM
+//DECLARAR BOTONES Y EVENTOS DEL DOM PARA DETONAR LAS FUNCIONES DECLARADAS 
 buttonCode.addEventListener("click", codeScreen);
 buttonDecode.addEventListener("click", decodeScreen);
 buttonReset.addEventListener("click",resetWelcome);

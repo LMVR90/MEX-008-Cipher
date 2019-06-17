@@ -4,29 +4,29 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Asap|Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" /> <!--VINCULA EL DOCUMENTO STYLE.CSS-->
+  <link href="https://fonts.googleapis.com/css?family=Asap|Work+Sans&display=swap" rel="stylesheet"> <!--VINCULA CON LAS FUENTES UTILIZADAS-->
 </head>
 
 <body>
   <header id="main-header">
     <h1 id="kanan">KANAN</h1>
-      <p>For <a href="http://www.kupiix.com.mx/" target="_blank"><img src="logo-kupiix.png" alt="logo-kupiix"></a></p>    
+      <p>For <a href="http://www.kupiix.com.mx/" target="_blank"><img src="logo-kupiix.png" alt="logo-kupiix"></a></p> <!--LOGO Y LINK AL SITIO DE KUPIIX-->   
   </header>
 <main>
 
-  <section id="welcome">
+  <section id="welcome"> <!--PANTALLA DE BIENVENIDA-->
     <br>
     <h1 id="bienvenida">Bienvenida</h1>
     <p class="sub-copy-kanan">KANAN crea e interpreta mensajes cifrados para compartir información de manera segura en tu red <span class="ku">ku</span><span class="piix">piix</span></p>
     <br>
-    <h3>1. Escribe tu <strong class="ku1">mensaje</strong> aquí:</h3>
+    <h3>1. Escribe tu <strong class="ku1">mensaje</strong> aquí:</h3> <!--INPUT STRING-->
     <p class="sub-copy">(Utiliza solamente letras, sin caracteres especiales)</p>
     <form class="" action="user-message" autocomplete="off" id="input-string">
       <label for="user-message" style="display:none">Ingresa tu mensaje aquí:</label>
       <textarea type="text" name="user-message" id="string" size="150" placeholder="Escribe tu mensaje aquí" required></textarea>
     </form>
-    <h3>2. Ingresa tu <strong class="ku1">número de seguridad</strong> aquí:</h3>
+    <h3>2. Ingresa tu <strong class="ku1">número de seguridad</strong> aquí:</h3> <!--INPUT OFFSET-->
     <p class="sub-copy">Si vas a <strong class="piix">cifrar</strong>, introduce un número al azar.
       <br>
       Si vas a <strong class="piix">descifrar</strong>, introduce el número que te proporcionaron.
@@ -36,24 +36,24 @@
       <input type="number" name="offset" min="1" max="1000" id="offset" style="width: 100px;height: 30px;font-size: 16px" placeholder="1" required>
     </form>
     <div>
-      <h3>3. Selecciona tu <strong class="ku1">acción</strong>:</h3>
+      <h3>3. Selecciona tu <strong class="ku1">acción</strong>:</h3> <!--INPUT ACCION CIFRAR/DESCIFRAR-->
       <button type="button" class="button-action" :hover name="button-code" id="button-code">Cifrar</button>
       <button type="button" class="button-action" :hover name="button-decode" id="button-decode">Descifrar</button>
     </div>
   </section>
 
-  <section id="code-screen" style="display:none">
+  <section id="code-screen" style="display:none"> <!--PANTALLA CIFRADO-->
     <h2 id="code-text-copy">Tu mensaje cifrado es:</h2>
     <textarea id="encoded-text"></textarea>
     <h3 class="ku">No olvides compartir tu número de seguridad al destinatario</h3>
   </section>
 
-  <section id="decode-screen" style="display:none">
+  <section id="decode-screen" style="display:none"> <!--PANTALLA DESCIFRADO-->
     <h2 id="decode-text-copy">Tu mensaje descifrado es:</h2>
     <textarea id="decoded-text"></textarea>
   </section>
 
-  <section id="start-again" style="display:none" >
+  <section id="start-again" style="display:none"> <!--BOTÓN REINICIO-->
   <form action="reset" id="reset-form">
     <button type="reset" class="button-reset" :hover form="input-string" name="start-again" id="reset" value="reset">Volver al inicio</button>
   </form>
@@ -61,10 +61,10 @@
 
 </main>
 
-  <footer id="main-footer">LMVR90 | 2019</footer>
+  <footer id="main-footer">LMVR90 | 2019</footer> <!--FOOTER-->
 
-  <script src="index.js"></script>
-  <script src="cipher.js"></script>
+  <script src="index.js"></script> <!--INDEX.JS-->
+  <script src="cipher.js"></script> <!--CIPHER.JS-->
 
 </body>
 
