@@ -10,7 +10,7 @@ Explicar cómo descargar, instalar y ejecutar la aplicación.
 
 ## Introducción
 
-KANAN es una aplicación creada para la empresa [Kupiix](http://www.kupiix.com.mx/). Kupiix es una empresa 100% mexicana orientada en el diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
+KANAN es una aplicación creada para la empresa [Kupiix](http://www.kupiix.com.mx/). Kupiix es una empresa 100% mexicana orientada al diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
 
 El monitoreo de casa se genera a través de la instalación de sensores que permiten alertar al residente, mediante una aplicación móvil, sobre detección de movimiento, apertura de puertas o ventanas, inundación, humo y fugas de gas.
 
@@ -20,13 +20,25 @@ Para la protección de casa, se integra un seguro de hogar con coberturas que pr
 
 ## Creación de KANAN para Kupiix
 
-En el entorno Kupiix, se busca enriquecer la experiencia de seguridad a través de la implementación de una app que refuerce el intercambio de información de manera segura entre las personas de la red Kupiix.
+Kupiix busca ofrecer experiencias de seguridad cada vez más completas a sus usuarias. La protección de los hogares al 100% es prioridad para la empresa, para ello continuamente buscan innovar para resolver las necesidades de sus usuarios de manera integral. Con la implementación de KANAN en los canales de comunicación de la red de Kupiix, se estará reforzando el intercambio de información de manera segura. Información que directa e indirectamente puede comprometer la seguridad de los hogares que Kupiix protege. Al estar resguardada esta información con el cifrado de KANAN, tanto usuarios, como personal de la empresa podrán contar con mayor protección y confianza.
 
-Inicialmente, KANAN será para uso exclusivo del equipo de trabajo de Kupiix. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios al entorno, la app se ampliará también a la comunicación entre equipo de trabajo y clientes de la empresa.
+Inicialmente, KANAN será probado exclusivamente entre los miembros del equipo de trabajo de Kupiix. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios al entorno, la app se ampliará a la comunicación entre equipo de trabajo y clientes de la empresa.
 
 ## Funcionalidad
 
-KANAN busca ser una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuarix. 
+KANAN busca ser una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuario y miembro del equipo Kupiix. 
+
+Wireframe del prototipo: https://marvelapp.com/c244bch/screen/58251317 
+
+La aplicación será presentada de manera personal al equipo y usuarias Kupiix para explicar su funcionameiento y entregar directamente el link de acceso a la descarga. Esto forma parte del protocolo de seguridad que Kupiix busca mantener en sus operaciones y servicios.
+
+La aplicación será exclusivamente para uso de Kupiix. Pueden acceder a una demostración de la aplicación aquí: [KANAN] (https://lmvr90.github.io/MEX-008-Cipher/src)
+
+
+
+
+
+
 
 ---
 

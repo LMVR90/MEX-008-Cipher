@@ -71,10 +71,11 @@ textarea {
   resize: auto;
   overflow: auto;
   font-size: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .button-action {
+  border: 0;
   text-decoration: none;
   padding: 20px;
   font-family: 'Work Sans', sans-serif;
@@ -90,6 +91,7 @@ textarea {
 }
 
 .button-reset {
+  border: 0;
   text-decoration: none;
   padding: 20px;
   font-family: 'Work Sans', sans-serif;
@@ -99,18 +101,21 @@ textarea {
   font-weight: bold;
   font-size: 20px;
   color: black;
-  background-color: #c7c9c7;
+  background-color: #e36332;
   width: 200px;
   height: 70px;
   margin-bottom: 5%;
   overflow: auto;
 }
 .button-action:hover {
-  opacity: 0.5;
+  background-color: #e36332;
+  opacity: 0.8;
+  color: white;
 }
 
 .button-reset:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+  color: white;
 }
 
 section {
