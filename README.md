@@ -7,7 +7,7 @@ Quiénes son los principales usuarios de producto. Cómo se pensó en ellos. Cu�
 
 ### Introducción  
 
-KANAN es una aplicación de cifrado y descifrado de mensajes creada para la empresa [Kupiix](http://www.kupiix.com.mx/). _Kupiix_ es una empresa 100% mexicana orientada al diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
+KANAN es una aplicación de cifrado y descifrado de mensajes creada para la empresa [Kupiix](http://www.kupiix.com.mx/). Kupiix es una empresa 100% mexicana orientada al diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
 
 ### Creación de KANAN para Kupiix
 
@@ -15,19 +15,19 @@ Kupiix busca ofrecer experiencias de seguridad cada vez más completas a sus usu
 
 El monitoreo de inmuebles se genera a través de la instalación de sensores que permiten alertar al residente, mediante una aplicación móvil, sobre detección de movimiento, apertura de puertas o ventanas, inundación, humo y fugas de gas.
 
-La automatización ocurre instalando conexiones eléctricas inteligentes que permiten, desde un clic en una aplicación móvil, encender o apagar luces de las habitaciones y controlar el encendido o apagado de múltiples electrodomésticos y dispositivos eléctricos en general.
+La automatización ocurre instalando conexiones eléctricas inteligentes que permiten, desde un click en la aplicación móvil, encender o apagar luces de las habitaciones y controlar el encendido o apagado de múltiples electrodomésticos y dispositivos eléctricos en general.
 
 Para la protección de inmuebles, se integra un seguro de hogar con coberturas que protegen al cliente por robos y siniestros. Proveen además, asistencia de plomería, cerrajería y sistemas eléctricos.
 
-El despliegue de estos servicios por parte de _Kupiix_ implica el compartir información que directa e indirectamente puede comprometer la seguridad de los hogares que _Kupiix_ protege. Con la implementación de KANAN en los canales de comunicación de la red de _Kupiix_, se estará reforzando el intercambio de esta información de manera segura. Al resguardar esta información con el cifrado de KANAN, tanto usuarios, como personal de la empresa podrán contar con mayor protección y confianza.
+Para el despliegue de estos servicios por parte de Kupiix se requiere compartir información que directa e indirectamente puede comprometer la seguridad de los hogares que _Kupiix_ protege. Con la implementación de KANAN en los canales de comunicación de la red de Kupiix, se estará reforzando el intercambio de esta información de manera segura. Al resguardar esta información con el cifrado de KANAN, tanto usuarios, como personal de la empresa podrán contar con mayor protección y confianza.
 
-Inicialmente, KANAN será probado entre los miembros del equipo de trabajo de _Kupiix_. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios, la app se ampliará a la comunicación entre equipo de trabajo y clientes de la empresa para ser ofrecida como uno más de los servicios de protección de _Kupiix_.
+Inicialmente, KANAN será probado entre los miembros del equipo de trabajo de Kupiix. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios, la app se ampliará a la comunicación entre equipo de trabajo y clientes de la empresa para ser ofrecida como uno más de los servicios de protección de Kupiix.
 
 ## Funcionalidad
 
-KANAN sirve para cifrar y descifrar mensajes que se intercambian entre la red _Kupiix_, tanto agentes de la empresa como los clientes que adquieren sus servicios y productos. La app permite cifrar y descifrar los mensajes en los que se comparte información que compromete la seguridad de las personas y los inmuebles asegurados.
+KANAN sirve para cifrar y descifrar mensajes que se intercambian entre la red Kupiix, tanto agentes de la empresa como los clientes que adquieren sus servicios y productos. La app permite cifrar y descifrar los mensajes en los que se comparte información que compromete la seguridad de las personas y los inmuebles asegurados.
 
-Se trata de una aplicación muy ligera que las usuarias podrán tener instalada en sus computadoras y dispositivos móviles. KANAN es una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuaria y miembro del equipo _Kupiix_.
+Se trata de una aplicación muy ligera que las usuarias podrán tener instalada en sus computadoras y dispositivos móviles. KANAN es una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuaria y miembro del equipo Kupiix.
 
 KANAN funciona en los siguientes pasos:
 
@@ -45,21 +45,21 @@ KANAN funciona en los siguientes pasos:
 
 2. Al dar click en el botón de acción, aparece la pantalla con el resultado. El mensaje aparece en una caja de texto para facilitar su selección y copiado para luego ser pegado en el cuerpo del mensaje de la aplicación de mensajería que la usuaria prefiera.
 
-La aplicación será presentada de manera personal al equipo y usuarias _Kupiix_ para explicar su funcionameiento y entregar directamente el link y la llave de acceso para su descarga. Esto forma parte del protocolo de seguridad que _Kupiix_ busca mantener en sus operaciones y servicios.
+La aplicación será presentada de manera personal al equipo y usuarias Kupiix para explicar su funcionameiento y entregar directamente el link y la llave de acceso para su descarga. Esto forma parte del protocolo de seguridad que Kupiix busca mantener en sus operaciones y servicios.
 
-La aplicación será exclusivamente para uso de _Kupiix_. Con fines demostrativos, se puede acceder a la aplicación aquí: [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
+La aplicación será exclusivamente para uso de Kupiix. Con fines demostrativos, se puede acceder a la aplicación aquí: [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
 
 ## Diseño
 
-Las decisiones de diseño fueron tomadas en colaboración con una agente del área de Ventas y éxito del cliente de _Kupiix_.
+Las decisiones de diseño fueron tomadas en colaboración con una agente del área de Ventas y éxito del cliente de Kupiix.
 
 ### El nombre
 
-_Kupiix_ es un acrónimo que se formó de dos palabras mayas, su significado es: "casa protegida". Al crear esta app, retomamos la inspiración en la lengua maya y en ella econtramos la palabra "kanan", que significa "cuidar" o "guardar". 
+Kupiix es un acrónimo que se formó de dos palabras mayas, su significado es: "casa protegida". Al crear esta app, retomamos la inspiración en la lengua maya y en ella econtramos la palabra "kanan", que significa "cuidar" o "guardar". 
 
 ### La imagen
 
-Decidimos retomar la paleta de colores _Kupiix_, en combinación con gris, blanco y negro. Estos colores transmiten seriedad, sencillez y seguridad, en sintonía con los objetivos de nuestra aplicación. El toque de color que permite transmitir familiaridad a las usuarias, lo dan los colores de _Kupiix_, al mismo tiempo que permiten sentirnos dentro del entorno seguro de la empresa.
+Decidimos retomar la paleta de colores Kupiix, en combinación con gris, blanco y negro. Estos colores transmiten seriedad, sencillez y seguridad, en sintonía con los objetivos de nuestra aplicación. El toque de color que permite transmitir familiaridad a las usuarias, lo dan los colores de Kupiix, al mismo tiempo que permiten sentirnos dentro del entorno seguro de la empresa.
 
 ### Sencillez y agilidad
 
@@ -69,9 +69,7 @@ En ellas se visualizan las instrucciones e inputs claramente, así como los boto
 
 ### Prototipos
 
-Primero se realizó un wireframe a partir del flujo de acciones.
-Después se comenzó a darle diseño en CSS, aplicando la paleta de colores de manera básica.
-Finalmente se tuve una reunión con la agente de _Kupiix_ para trabajar sobre la primer propuesta y crear la versión final al momento, de la imagen de KANAN.
+Primero se realizó un wireframe en papel con base en el flujo de acciones. El siguiente paso fue crear la maqueta en HTML y aplicar estilos en CSS retomando las primeras decisiones de diseño. Finalmente se tuvo una reunión con la agente de Kupiix para trabajar sobre la primer propuesta y definir la última versión de KANAN.
 
 Se pueden ver las tres etapas principales de diseño:
 
@@ -84,6 +82,8 @@ Se pueden ver las tres etapas principales de diseño:
 ![primer-version-KANAN](src/imagenes/screenshot-kanan-2.png)
 
 - Versión final de [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
+
+![version-final-KANAN](src/imagenes/screenshot-kanan-3.png)
 
 ---
 
