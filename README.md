@@ -31,16 +31,19 @@ KANAN sirve para cifrar y descifrar mensajes que se intercambian entre la red _K
 Se trata de una aplicación muy ligera que las usuarias podrán tener instalada en sus computadoras y dispositivos móviles. KANAN es una aplicación simple y ágil. Ideal para complementar el sistema de mensajería preferido por cada usuaria y miembro del equipo _Kupiix_.
 
 KANAN funciona en los siguientes pasos:
-<br>
+
 1. Al abrir la aplicación aparece la pantalla de inicio en la que están los campos necesarios para la interacción con el usuario:
-<br>
-1.1 Introducir mensaje.
-<br>
-1.2 Introducir número de seguridad. Este número es el que el programa utiliza como _offset_ para cifrar y descifrar el mensaje. Si la usuaria quiere cifrar un mensaje, ella debe definir el número y luego compartirlo al destinatario. Si la usuaria quiere descifrar, ella debe haber recibido el número de seguridad e introducirlo en este espacio.
-<br>
-1.3 Dar click en el botón que indica la acción que quiere realizar.
-<br>
-<br>
+
+
+- Introducir mensaje.
+
+
+- Introducir número de seguridad. Este número es el que el programa utiliza como _offset_ para cifrar y descifrar el mensaje. Si la usuaria quiere cifrar un mensaje, ella debe definir el número y luego compartirlo al destinatario. Si la usuaria quiere descifrar, ella debe haber recibido el número de seguridad e introducirlo en este espacio.
+
+
+- Dar click en el botón que indica la acción que quiere realizar.
+
+
 2. Al dar click en el botón de acción, aparece la pantalla con el resultado. El mensaje aparece en una caja de texto para facilitar su selección y copiado para luego ser pegado en el cuerpo del mensaje de la aplicación de mensajería que la usuaria prefiera.
 
 La aplicación será presentada de manera personal al equipo y usuarias _Kupiix_ para explicar su funcionameiento y entregar directamente el link y la llave de acceso para su descarga. Esto forma parte del protocolo de seguridad que _Kupiix_ busca mantener en sus operaciones y servicios.
@@ -75,16 +78,15 @@ Finalmente se tuve una reunión con la agente de _Kupiix_ para trabajar sobre la
 
 Se pueden ver las tres etapas principales de diseño:
 
-* Wireframe del prototipo en MARVEL: [Prototipo KANAN](https://marvelapp.com/c244bch/screen/58251317)
+- Wireframe del prototipo en MARVEL: [Prototipo KANAN](https://marvelapp.com/c244bch/screen/58251317)
 
-* Primer versión con estilos:
+- Primer versión con estilos:
 
-<img src = imagenes/screenshot-kanan-1.png>
-<br>
-<br>
-<img src = imagenes/screenshot-kanan-2.png>
+![primer-version-KANAN](src/imagenes/screenshot-kanan-1.png) 
 
-* Versión final de [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
+![primer-version-KANAN](src/imagenes/screenshot-kanan-2.png)
+
+- Versión final de [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
 
 ---
 ---
