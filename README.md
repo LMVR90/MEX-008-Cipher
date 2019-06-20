@@ -1,10 +1,11 @@
 <!--
 Quiénes son los principales usuarios de producto. Cómo se pensó en ellos. Cuál fue el proceso para definir el producto final a nivel de experiencia y de interfaz. Decisiones de diseño. Explicar cómo descargar, instalar y ejecutar la aplicación.
 -->
-
 # KANAN
 
-## Introducción
+[Proyecto realizado en el _bootcamp_ de Laboratoria MEX-008. Crear una aplicación que utilice cifrado César.]
+
+### Introducción  
 
 KANAN es una aplicación de cifrado y descifrado de mensajes creada para la empresa [Kupiix](http://www.kupiix.com.mx/). _Kupiix_ es una empresa 100% mexicana orientada al diseño de soluciones que permiten monitorear o vigilar, automatizar y proteger tu casa. 
 
@@ -21,8 +22,6 @@ Para la protección de inmuebles, se integra un seguro de hogar con coberturas q
 El despliegue de estos servicios por parte de _Kupiix_ implica el compartir información que directa e indirectamente puede comprometer la seguridad de los hogares que _Kupiix_ protege. Con la implementación de KANAN en los canales de comunicación de la red de _Kupiix_, se estará reforzando el intercambio de esta información de manera segura. Al resguardar esta información con el cifrado de KANAN, tanto usuarios, como personal de la empresa podrán contar con mayor protección y confianza.
 
 Inicialmente, KANAN será probado entre los miembros del equipo de trabajo de _Kupiix_. En una siguiente etapa, una vez que se compruebe su funcionalidad y se realicen los ajustes necesarios, la app se ampliará a la comunicación entre equipo de trabajo y clientes de la empresa para ser ofrecida como uno más de los servicios de protección de _Kupiix_.
-
-***
 
 ## Funcionalidad
 
@@ -49,8 +48,6 @@ KANAN funciona en los siguientes pasos:
 La aplicación será presentada de manera personal al equipo y usuarias _Kupiix_ para explicar su funcionameiento y entregar directamente el link y la llave de acceso para su descarga. Esto forma parte del protocolo de seguridad que _Kupiix_ busca mantener en sus operaciones y servicios.
 
 La aplicación será exclusivamente para uso de _Kupiix_. Con fines demostrativos, se puede acceder a la aplicación aquí: [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
-
-***
 
 ## Diseño
 
@@ -88,7 +85,6 @@ Se pueden ver las tres etapas principales de diseño:
 
 - Versión final de [KANAN](https://lmvr90.github.io/MEX-008-Cipher/src)
 
----
 ---
 
 # Cifrado César
