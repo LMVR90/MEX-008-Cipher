@@ -23,7 +23,6 @@ const codeScreen = () => {
   let offset = parseInt(offsetInput);
   let result = window.cipher.encode(offset, string);
   document.getElementById('encoded-text').innerHTML = result;
-  //document.getElementById("encoded-text").innerHTML = window.cipher.encode(offset, string);
 }
 
 //FUNCIÓN PARA IR A PANTALLA DE TEXTO DECODIFICADO. OCULTA LAS OTRAS PANTALLAS Y BOTONES. OBTIENE LOS VALORES DE LOS INPUTS NECESARIOS PARA EL MÉTODO DECODE. IMPLEMENTA EL MÉTODO DECODE.
@@ -36,7 +35,6 @@ const decodeScreen = () => {
   let offset = parseInt(offsetInput);
   let result = window.cipher.decode(offset, string);
   document.getElementById('decoded-text').innerHTML = result;
-  //document.getElementById("decoded-text").innerHTML = window.cipher.decode(offset, string);
 }
 
 //DECLARAR BOTONES Y EVENTOS DEL DOM PARA DETONAR LAS FUNCIONES DECLARADAS 
